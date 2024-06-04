@@ -1,3 +1,10 @@
 # configuration file for building snapshots and releases with jitpack.io
 jdk:
   - openjdk21
+#before_install:
+#  - ./custom_setup.sh
+install:
+  - echo "Running a custom install command"
+  - mvn clean install # Default, Jitpack will run: mvn install -DskipTests
+#env:
+#  MY_VAR: "custom environment variable"

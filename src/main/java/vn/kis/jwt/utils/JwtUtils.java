@@ -1,9 +1,9 @@
-package utils;
+package vn.kis.jwt.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import exceptions.InvalidJWTDataException;
-import models.JwtPayloadDTO;
+import vn.kis.jwt.exceptions.InvalidJWTDataException;
+import vn.kis.jwt.models.JwtPayloadDTO;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;

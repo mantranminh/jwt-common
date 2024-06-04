@@ -1,4 +1,4 @@
-package models;
+package vn.kis.jwt.models;
 
 import java.util.List;
 

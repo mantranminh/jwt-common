@@ -1,11 +1,12 @@
 package utils;
 
-import exceptions.InvalidJWTDataException;
-import models.JwtPayloadDTO;
+import vn.kis.jwt.exceptions.InvalidJWTDataException;
+import vn.kis.jwt.models.JwtPayloadDTO;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import vn.kis.jwt.utils.JwtUtils;
 
 public class JwtUtilsUnitTest {
 
